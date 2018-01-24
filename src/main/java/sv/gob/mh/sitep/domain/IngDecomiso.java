@@ -154,7 +154,7 @@ public class IngDecomiso implements Serializable {
         if (catSedeByidSede == null) {
              this.catSedeByidSede = null;
         }else {
-             this.catSedeByidSede = new CatSedeByidSede();
+//             this.catSedeByidSede = new CatSedeByidSede();
              this.catSedeByidSede.setIdSede(idSede);
          }
     }
@@ -255,14 +255,14 @@ public class IngDecomiso implements Serializable {
     * @author Generador-Safi
     * @version 1.0
     **/
-    public void setCatSedeDelegate(    Integer  idSede){
-        if (catSedeByordenIdSede == null) {
-             this.catSedeByordenIdSede = null;
-        }else {
-             this.catSedeByordenIdSede = new CatSedeByordenIdSede();
-             this.catSedeByordenIdSede.setIdSede(idSede);
-         }
-    }
+//    public void setCatSedeDelegate(    Integer  idSede){
+//        if (catSedeByordenIdSede == null) {
+//             this.catSedeByordenIdSede = null;
+//        }else {
+//             this.catSedeByordenIdSede = new CatSedeByordenIdSede();
+//             this.catSedeByordenIdSede.setIdSede(idSede);
+//         }
+//    }
 
 
 }
