@@ -8,6 +8,7 @@
         <%@include file="/WEB-INF/views/includes.jsp" %>
         <c:url value="/gridCatEstado" var="urlgridCatEstado" />
         <c:url value="/exportCatEstado" var="recordsExportUrlCatEstado" />
+        <c:url value="/saveCatEstado" var="recordsSaveCatEstado" />
     </head>
     <body>
         <div class="wrapper">
@@ -28,6 +29,7 @@
                         <div class="jqgrid-responsive mb-lg">
                             <jf:grid urlgrid="${urlgridCatEstado}" 
                                      urlexport="${recordsExportUrlCatEstado}"
+                                     urlsave="${recordsSaveCatEstado}"
                                      entity="CatEstado" 
                                      caption="CatEstado grid"
                                      />
